@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns="http://www.example.com/bookstore"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.example.com/bookstore bookstore.xsd">
+
+  <!-- Root element -->
+  <book>
+    <!-- Book ID (unique identifier) -->
+    <id>12345</id>
+
+    <!-- Book title -->
+    <title>The Great Gatsby</title>
+
+    <!-- Author information -->
+    <author>
+      <firstname>F. Scott</firstname>
+      <lastname>Fitzgerald</lastname>
+    </author>
+
+    <!-- Book price -->
+    <price>12.99</price>
+
+    <!-- Stock quantity -->
+    <stock>50</stock>
+  </book>
+
+  <!-- Add more book elements here -->
+
+</bookstore>
+
